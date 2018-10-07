@@ -5,52 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume</title>
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <section class="conteiner">
-        <figure>
-          <img src="#" alt="portrait">
-        </figure>
-        <div class="name">
-          <p>
-            Gubanich Alexey
-          </p>
-        </div>
-        <div class="contacts">
-          <ul>
-            <li>(29)340-16-50</li>
-            <li>gubnich@yandex.ru</li>
-          </ul>
-        </div>
-    </section>
-  </header>
-  <main>
-    <section class="conteiner">
+  <div class="container">
+    <header class="vertical-center">
+      <div class="wrapper">
+          <figure class="portrait">
+            <img src="img/portrait.jpg" width="200px" height="169px" alt="portrait">
+          </figure>
+          <div class="name">
+            <p>
+              Gubanich Alexey
+            </p>
+          </div>
+          <div class="contacts">
+            <ul>
+              <li>(29)340-16-50</li>
+              <li>gubnich@yandex.ru</li>
+            </ul>
+          </div>
+      </div>
+    </header>
+    <main>
       <article class="content">
         <table>
-          <tr>
-            <td>Education</td>
-            <td>Belorussian state economic university</td>
-          </tr>
-          <tr>
-            <td>Speciality</td>
-            <td>economics</td>
-          </tr>
-          <tr>
-            <td>Last job</td>
-            <td>Belinvestbank></td>
-          </tr>
-          <tr>
-            <td>Age</td>
-            <td>36</td>
-          </tr>
-          <tr>
-            <td>Location</td>
-            <td>Minsk</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td class="item">Education</td>
+              <td class="value">Belorussian state economic university</td>
+            </tr>
+            <tr>
+              <td class="item">Specialty</td>
+              <td class="value">economics</td>
+            </tr>
+            <tr>
+              <td class="item">Last job</td>
+              <td class="value">Belinvestbank</td>
+            </tr>
+            <tr>
+              <td class="item">Age</td>
+              <td class="value">36</td>
+            </tr>
+            <tr>
+              <td class="item">Location</td>
+              <td class="value">Minsk</td>
+            </tr>
+          </tbody>
         </table>
-        <div>
+        <div class="about">
           <p>
               I have no professional experience in programming but I have a great desire to
               evolve and work in this direction. I have learned HTML, CSS, LESS, Javascript
@@ -63,12 +66,10 @@
           </p>
         </div>
       </article>
-    </section>
-  </main>
-  <footer>
-    <section class="conteiner">
-
-    </section>
-  </footer>
+    </main>
+    <footer>
+      <p>&copy; 2018</p>
+    </footer>
+  </div>
 </body>
 </html>
